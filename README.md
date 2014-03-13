@@ -1,4 +1,4 @@
-hatoholweb-source
+Hatohol Web Site
 =================
 
 Dependency to execute gen.py
