@@ -17,3 +17,4 @@
 ニュース掲載
 -----------
 - [ZabbixとNagiosの監視情報を一元的に表示する「Hatohol」](http://www.atmarkit.co.jp/ait/articles/1307/01/news134.html) - @IT 2013/07/01
+- [監視統合ビューアHatohol(はとほる)の紹介](http://www.ossnews.jp/closeup/articles/?aid=201308-00003) - OSSNEWS 2013/08/23
