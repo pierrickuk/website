@@ -12,4 +12,5 @@ Hatoholはバザールモデルによるオープンな開発体制を目指し�
 パッチの投稿
 -----------
 Hatoholのリポジトリーをフォークし、修正をコミットした上、Github上でPull Requestを送って下さい。
+[https://github.com/project-hatohol/](https://github.com/project-hatohol/) 以下にあるリポジトリーに送られる全てのパッチは、Project Hatoholに寄贈されるものとなります。詳細は[TODO: どこどこ](https://github.com/project-hatohol/hatohol/wiki/somewhere)を参照して下さい。
 
