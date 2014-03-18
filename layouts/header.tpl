@@ -37,7 +37,7 @@
 					<li><a href="/download/">ダウンロード</a></li>　
 					<li><a href="/docs/">ドキュメント</a></li>
 					<li><a href="/press/">掲載情報</a></li>
-					<li><a href="/contrib/">プロジェクトへの参加</a></li>
+					<li><a href="/contrib/">プロジェクトへの協力</a></li>
 					<li><a href="https://sourceforge.jp/projects/hatohol/forums/" target="_blank">フォーラム</a></li>
 				</ul>
 			</div>
