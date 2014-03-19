@@ -14,15 +14,13 @@ $font-size-h2: floor(($font-size-base * 1.7));
 
 @import "bootstrap/bootstrap.scss";
 
-$gradient: linear-gradient(to top, rgb(242, 145, 25), rgb(242, 176, 96));
-
 body {
 	 background: linear-gradient(to top, rgb(247, 205, 137), rgb(247, 233, 210));
 	 background-attachment: fixed;
 }
 
 nav {
-	background: $gradient;
+	background: linear-gradient(to top, rgb(242, 145, 25), rgb(242, 176, 96));
 	box-shadow: 5px 5px 5px #C0C0C0;
 
 	img {
