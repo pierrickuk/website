@@ -34,7 +34,7 @@
 			<div class="collapse navbar-collapse" id="hatohol-navs">
 				<ul class="nav navbar-nav navbar-right">
 					<li><b>このサイトは工事中です。</b></li>
-					<li><a href="/features/">Hatoholの機能</a></li>
+					<li><a href="/about/">Hatoholの概要</a></li>
 					<li><a href="/download/">ダウンロード</a></li>　
 					<li><a href="/docs/">ドキュメント</a></li>
 					<li><a href="/press/">掲載情報</a></li>
