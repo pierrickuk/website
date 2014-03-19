@@ -4,7 +4,6 @@ $text-color: #86500D;
 $link-color: darken($text-color, 10%);
 $link-hover-color: lighten($text-color, 30%);
 
-$navbar-padding-horizontal: -149px;
 $navbar-default-link-color: #FFFFFF;
 $navbar-default-link-hover-color: $link-color;
 
@@ -32,7 +31,7 @@ nav {
 		padding-bottom: 0;
 	}
 	ul.navbar-nav {
-		width: 800px;
+		width: 1000px;
 		li {
 			border-right: 1px solid rgb(247, 153, 0);
 			border-left: 1px solid rgb(230, 187, 118);
