@@ -1,5 +1,6 @@
 How to upgrade Hatohol on CentOS 6.4 (x86_64) from version 0.1 to version 13.12 with RPM files
 =====================================================================
+[Japanese](../ja/)
 
 Installation of Additional packages.
 -----------------------------------
