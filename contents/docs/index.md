@@ -10,3 +10,7 @@
 	- [できぬなら作ってしまえ? OSS監視ツール「Hatohol」ができるまで](http://www.atmarkit.co.jp/ait/articles/1402/13/news008.html)
 	- [初心者にも分かる、Hatoholのインストールと初期設定](http://www.atmarkit.co.jp/ait/articles/1403/13/news007.html)
 
+開発者向けドキュメント
+-------------------
+- [Hatohol Server APIドキュメント]
+
