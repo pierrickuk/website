@@ -11,6 +11,8 @@ $font-size-h1: floor(($font-size-base * 2));
 $font-size-h2: floor(($font-size-base * 1.7));
 $font-size-h3: floor(($font-size-base * 1.5));
 
+$kbd-color: #000000;
+$kbd-bg: none;
 
 @import "bootstrap/bootstrap.scss";
 
@@ -81,6 +83,23 @@ main {
 		right: 0;
 		border: 0;
 	}
+}
+
+
+pre {
+	line-height: 1.1em;
+	font-size: $font-size-base;
+
+	kbd {
+		border-radius: none;
+		box-shadow: none;
+		padding: 0;
+	}
+}
+
+footer {
+	text-align: center;
+	margin-top: 10px;
 }
 
 img.screenshot {
