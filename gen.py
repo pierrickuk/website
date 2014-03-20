@@ -45,8 +45,8 @@ def gen_html(walk_dir, outpath_root, header, footer):
 		for filename in filenames:
 			if filename.endswith(".scss"):
 				pass # Don't copy .scss files
-#			elif filename.endswith(".odg"):
-#				subprocess.call("unoconv -f png -o %s %s" % (os.path.join(outpath, filename), os.path.join(dirpath, filename)), shell=True)
+			elif filename.endswith(".odg"):
+				subprocess.call("unoconv -f png -o %s %s" % (os.path.join(outpath, filename), os.path.join(dirpath, filename)), shell=True)
 
 			elif filename.endswith(".md") or filename.endswith(".tpl"):
 				with open(os.path.join(dirpath, filename), "r") as content_file:
