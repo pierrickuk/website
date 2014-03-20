@@ -57,6 +57,8 @@ def gen_html(walk_dir, outpath_root, header, footer):
 
 					if filename == "index.tpl":
 						outfile = os.path.join(outpath, filename.replace(".tpl", ".html"))
+					elif filename == "index.md":
+						outfile = os.path.join(outpath, filename.replace(".md", ".html"))
 					else: # if filename != "index.tpl"
 						outfile = os.path.join(outpath, filename.replace(".tpl", "").replace(".md", ""), "index.html")
 
