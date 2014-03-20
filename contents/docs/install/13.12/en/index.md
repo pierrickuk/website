@@ -1,7 +1,7 @@
 How to install Hatohol on CentOS 6.4 (x86_64) with RPM files
 ============================================================
 
-[Japanese](hatohol13.12-centos6.4-ja.md)
+[Japanese](../ja/)
 
 Installation of needed packages
 -------------------------------
