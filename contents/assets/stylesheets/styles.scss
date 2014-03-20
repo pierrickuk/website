@@ -15,8 +15,9 @@ $font-size-h2: floor(($font-size-base * 1.7));
 @import "bootstrap/bootstrap.scss";
 
 body {
-	 background: linear-gradient(to top, rgb(247, 205, 137), rgb(247, 233, 210));
-	 background-attachment: fixed;
+	background: linear-gradient(to top, rgb(247, 205, 137), rgb(247, 233, 210));
+	background-attachment: fixed;
+	
 }
 
 nav {
