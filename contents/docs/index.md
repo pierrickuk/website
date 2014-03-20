@@ -1,8 +1,8 @@
 ドキュメント
 ==========
 
-- [インストール](https://github.com/project-hatohol/hatohol/blob/master/doc/install/hatohol13.12-centos6.4-ja.md)
-- [アップグレード](https://github.com/project-hatohol/hatohol/blob/master/doc/upgrade/hatohol13.12-from0.1-centos6.4-ja.md)
+- [インストール](/docs/install/13.12/ja/)
+- [アップグレード (0.1 → 13.12)](/docs/upgrade/13.12/ja/)
 
 外部のドキュメント等
 ------------------
