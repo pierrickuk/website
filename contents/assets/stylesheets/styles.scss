@@ -106,14 +106,14 @@ img.screenshot {
 	height: auto;
 }
 
-.download {
+a.download {
 	background: linear-gradient(to top, rgb(242, 145, 25), rgb(242, 176, 96));
+
 	border: 1px solid rgb(247, 153, 0);
-	border-radius: 4px;
+
 	box-shadow: 1px 1px 1px rgba(000,000,000,0.3),inset 0px 0px 3px rgba(255,255,255,0.5);
 	padding: 10px;
 
-	font-size: $font-size-large;
 	color: #FFF;
 	text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
 
@@ -121,11 +121,18 @@ img.screenshot {
 		color: #FCE8CD;
 		text-decoration: none;
 	}
-
-	line-height: 4em;
 }
 
-.download-top {
+a.download-small {
+	font-size: $font-size-large;
+	display: table;
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-radius: 4px;
+}
+
+a.download-top {
 	font-size: 250%;
 	float: right;
 	border-radius: 8px;

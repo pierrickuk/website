@@ -41,6 +41,6 @@
 		<pre><kbd class="shell">git clone https://github.com/project-hatohol/hatohol.git</kbd></pre>
 		<p>また、以下のリンクから、最新のmasterをZip形式でダウンロードすることも可能です。</p>
 
-		<a href="https://github.com/project-hatohol/hatohol/archive/master.zip" class="download">ソースコードをダウンロード</a>
+		<a href="https://github.com/project-hatohol/hatohol/archive/master.zip" class="download download-small">ソースコードをダウンロード</a>
 
 </div>
