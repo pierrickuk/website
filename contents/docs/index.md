@@ -12,5 +12,5 @@
 
 開発者向けドキュメント
 -------------------
-- [Hatohol Server APIドキュメント]
+- [Hatohol Server APIドキュメント](/docs/api/)
 
