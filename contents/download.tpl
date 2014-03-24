@@ -35,12 +35,9 @@
 </ul>
 
 <h2>ソースコードをダウンロード</h2>
-<div class="row">
-
 		<p>ソースコードはGithubにありますので、git cloneが可能です。Ubuntuや、他のLinuxディストリビューションで試したい場合は、ソースコードからコンパイルして下さい。</p>
 		<pre><kbd class="shell">git clone https://github.com/project-hatohol/hatohol.git</kbd></pre>
 		<p>また、以下のリンクから、最新のmasterをZip形式でダウンロードすることも可能です。</p>
 
-		<a href="https://github.com/project-hatohol/hatohol/archive/master.zip" class="download download-small">ソースコードをダウンロード</a>
+		<p><a href="https://github.com/project-hatohol/hatohol/archive/master.zip" class="download download-small">ソースコードをダウンロード</a></p>
 
-</div>
