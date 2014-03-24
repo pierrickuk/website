@@ -1,7 +1,7 @@
 	</main>
 
 	<footer>
-		2014 &copy; Project Hatohol Currently All Rights Reserved.
+		Copyright &copy; 2014 Project Hatohol All Rights Reserved.
 	</footer>
   
 </body>
