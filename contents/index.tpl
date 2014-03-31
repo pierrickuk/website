@@ -10,12 +10,12 @@
 </div>
 
 <div class="row">
-	<div class="col-md-4">
+	<div class="col-md-6">
 		<h2>Hatoholとは</h2>
 		Hatoholは、複数の運用管理ツールの情報を統合して表示するツールです。現在はZabbixとNagiosに対応しており、複数の監視サーバーを用いて監視を行っている場合に、それらの蓄積する監視情報をまとめて表示することができます。<a href="/about/">詳細はこちら</a>
 	</div>
 
-	<div class="col-md-4">
+	<div class="col-md-6">
 		<div>
 			<h2>更新情報・お知らせ</h2>
 			<table class="table">
@@ -33,9 +33,7 @@
 				</tr>
 			</table>
 		</div>
-	</div>
 
-	<div class="col-md-4">
 		<!-- Twitter Time Line -->
 		<a class="twitter-timeline" href="https://twitter.com/search?q=Hatohol" data-widget-id="446079796666048513">Tweets about "Hatohol"</a>
 		<script>
