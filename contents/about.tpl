@@ -33,37 +33,6 @@
 	現在のところはZabbixとNagiosにのみ対応していますが、今後は他のツールとの連携も予定されています。現在検討されているのは、ジョブ管理ツールとしてHinemos、インシデント管理ツールとしてRedmine、ログ管理ツールとしてfluentdなどです。これらのツールと連携することにより、OSSだけで運用管理を全て賄えるようにすることを目指しています。
 </p>
 
-<h2>スクリーンショット</h2>
-<div>
-	<div>
-		<h4>最新データ画面</h4>
-		<p>全てのZabbix/Nagiosサーバーのデータを1箇所で確認可能です</p>
-		<img class="screenshot" alt="最新データ スクリーンショット" src="/assets/images/screenshots/latestdata.png"></p>
-	</div>
-	<div>
-		<h4>概要:トリガー画面</h4>
-		<p>エラーの発生箇所は赤く示されるので、どこに問題があるのかひと目で把握できます</p>
-		<img class="screenshot" alt="概要 トリガー スクリーンショット" src="/assets/images/screenshots/overview_triggers.png"></p>
-	</div>
-	<div>
-		<h4>ユーザー管理画面</h4>
-		<p>ユーザーごとに権限管理も可能です</p>
-		<img class="screenshot" alt="ユーザー管理画面 スクリーンショット" src="/assets/images/screenshots/users.png"></p>
-	</div>
-	<div>
-		<h4>ダッシュボード</h4>
-		<img class="screenshot" alt="ダッシュボード スクリーンショット" src="/assets/images/screenshots/dashboard.png">
-	</div>
-	<div>
-		<h4>イベント</h4>
-		<img class="screenshot" alt="イベント スクリーンショット" src="/assets/images/screenshots/events.png">
-	</div>
-	<div>
-		<h4>サーバー</h4>
-		<img class="screenshot" alt="サーバー スクリーンショット" src="/assets/images/screenshots/servers.png">
-	</div>
-</div>
-
 <h2>Project Hatoholとは</h2>
 <p>
 	Project Hatoholは、Hatoholの開発や、プロモーションなどを行っています。

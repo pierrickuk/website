@@ -34,6 +34,7 @@
 			<div class="collapse navbar-collapse" id="hatohol-navs">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="/about/">Hatoholの概要</a></li>
+					<li><a href="/screenshots/">スクリーンショット</a></li>
 					<li><a href="/download/">ダウンロード</a></li>　
 					<li><a href="/docs/">ドキュメント</a></li>
 					<li><a href="/press/">掲載情報</a></li>
