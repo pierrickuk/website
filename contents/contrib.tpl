@@ -4,13 +4,13 @@
 	<a href="https://github.com/project-hatohol/hatohol/">Hatohol on Github</a></p>
 <h2>バグの報告</h2>
 <p>
-	<a href="https://github.com/project-hatohol/hatohol/issues">GithubのIssuesページ</a>から報告して下さい。報告は英語で行えるようであれば英語で行っていただくことが望ましいですが、問題が報告されないことの方が問題であると考えておりますので、日本語でも構いません。詳細は<a href="https://github.com/project-hatohol/hatohol/wiki/anywhere">TODO: どこどこ</a>を参照して下さい。
+	<a href="https://github.com/project-hatohol/hatohol/issues">GithubのIssuesページ</a>から報告して下さい。報告は英語で行えるようであれば英語で行っていただくことが望ましいですが、問題が報告されないことの方が問題であると考えておりますので、日本語でも構いません。<!--詳細は<a href="https://github.com/project-hatohol/hatohol/wiki/anywhere">TODO: どこどこ</a>を参照して下さい。-->
 </p>
 
 <h2>パッチの投稿</h2>
 <p>
 	Hatoholのリポジトリーをフォークし、修正をコミットした上、Github上でPull Requestを送って下さい。
-	<a href="https://github.com/project-hatohol/">https://github.com/project-hatohol/</a> 以下にあるリポジトリーに送られる全てのパッチは、Project Hatoholに寄贈されるものとなります。詳細は<a href="https://github.com/project-hatohol/hatohol/wiki/somewhere">TODO: どこどこ</a>を参照して下さい。
+	<a href="https://github.com/project-hatohol/">https://github.com/project-hatohol/</a> 以下にあるリポジトリーに送られる全てのパッチは、Project Hatoholに寄贈されるものとなります。<!--詳細は<a href="https://github.com/project-hatohol/hatohol/wiki/somewhere">TODO: どこどこ</a>を参照して下さい。-->
 </p>
 
 <h2>ドキュメントの作成・編集</h2>
