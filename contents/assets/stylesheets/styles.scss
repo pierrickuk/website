@@ -76,6 +76,11 @@ main {
 		}
 	}
 
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
 	img.github {
 		position: absolute;
 		top: 0;
@@ -99,11 +104,6 @@ pre {
 footer {
 	text-align: center;
 	margin-top: 10px;
-}
-
-img.screenshot {
-	max-width: 100%;
-	height: auto;
 }
 
 a.download {
