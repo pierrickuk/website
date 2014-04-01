@@ -24,6 +24,10 @@
 					<td>Webサイトを公開</td>
 				</tr>
 				<tr>
+					<td>2014/03/31</td>
+					<td>Hatohol 14.03 リリース</td>
+				</tr>
+				<tr>
 					<td>2014/03/13</td>
 					<td><a href="http://www.atmarkit.co.jp/">@IT</a>で、Hatohol開発者 大和一洋の連載 <a href="http://www.atmarkit.co.jp/ait/articles/1403/13/news007.html">Hatoholで実現する分散監視 (2): 初心者にも分かる、Hatoholのインストールと初期設定</a>が公開</td>
 				</tr>
