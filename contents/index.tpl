@@ -31,6 +31,10 @@
 					<td>2013/12/27</td>
 					<td>Hatohol 13.12 リリース</td>
 				</tr>
+				<tr>
+					<td><a href="/updates/">もっと見る</a></td>
+					<td></td>
+				</tr>
 			</table>
 		</div>
 
