@@ -14,7 +14,7 @@
 	この場合、2台の監視サーバーの情報を閲覧するためのインターフェースは、それぞれの監視サーバーごとに独立していますので、1つ1つ見ていかなければなりません。監視サーバーが2~3台程度であっても少々混乱しますし、10台、20台、或いはそれ以上の監視サーバーがある場合は、最早非現実的です。<br>
 	Hatoholはそれぞれの監視サーバーから情報を集め、1つの画面上で表示します。これにより、スマートな監視のスケールアウトが実現されます。
 </p>
-<img alt="Hatoholのアーキテクチャー" src="https://raw.githubusercontent.com/project-hatohol/hatohol/master/doc/misc/hatohol-overview.png">
+<img alt="" src="/assets/images/diagrams/distributed-monitoring.png">
 
 <h2>軽快な動作</h2>
 <p>
@@ -32,6 +32,7 @@
 <p>
 	現在のところはZabbixとNagiosにのみ対応していますが、今後は他のツールとの連携も予定されています。現在検討されているのは、ジョブ管理ツールとしてHinemos、インシデント管理ツールとしてRedmine、ログ管理ツールとしてfluentdなどです。これらのツールと連携することにより、OSSだけで運用管理を全て賄えるようにすることを目指しています。
 </p>
+<img alt="" src="/assets/images/diagrams/integrated-monitoring.png">
 
 <!--
 <h2>Project Hatoholとは</h2>
