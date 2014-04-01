@@ -3,7 +3,8 @@
 <h2>RPMをyumリポジトリーからインストール</h2>
 
 <p>
-	Hatoholのyumリポジトリーからインストールを行います。原則としてCentOS (またはRedHat及びそのクローン) のバージョン6専用です。
+	Hatoholのyumリポジトリーからインストールを行います。原則としてCentOS (またはRedHat及びそのクローン) のバージョン6専用です。<br>
+このyumリポジトリーは現在ベータ版です。予告なくURLやパッケージ、その他に対して、変更が行われる可能性があります。
 </p>
 
 <pre><kbd class="shell"><span class="shellline">wget --output-document /etc/yum.repos.d/hatohol.repo http://project-hatohol.github.io/repo/hatohol.repo</span>
