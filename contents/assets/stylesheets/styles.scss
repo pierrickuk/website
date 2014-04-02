@@ -62,7 +62,6 @@ h2 {
 
 main {
 	background:rgba(255, 255, 255, 0.6);
-	position: relative;
 
 	a {
 		&:link {
@@ -80,6 +79,7 @@ main {
 		height: auto;
 	}
 
+	position: relative; // For Github ribbon
 	img.github {
 		position: absolute;
 		top: 0;
