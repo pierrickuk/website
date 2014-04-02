@@ -20,7 +20,7 @@
 			<h2>更新情報・お知らせ</h2>
 			<table class="table">
 				<tr>
-					<td>2014/03/30</td>
+					<td>2014/04/02</td>
 					<td>Webサイトを公開</td>
 				</tr>
 				<tr>
