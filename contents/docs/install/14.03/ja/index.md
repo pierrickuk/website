@@ -105,7 +105,8 @@ Hatohol serverが正常に開始した場合、/var/log/messagesに下記のよ�
     Oct  8 09:46:59 localhost hatohol[3038]: [INFO] <ArmZabbixAPI.cc:925> started: ArmZabbixAPI (server: testZbxSv1)
     Oct  8 09:47:01 localhost hatohol[3038]: [INFO] <ArmZabbixAPI.cc:925> started: ArmZabbixAPI (server: testZbxSv2)
 
-【TROUBLE SHOOT】Hatohol Server は現状、全てのログを syslog へ USER.INFO で出力します。USER.INFO は CentOS 6 デフォルトでは /var/log/messages にルーティングされています。
+【TROUBLE SHOOT】  
+Hatohol Server は現状、全てのログを syslog へ USER.INFO で出力します。USER.INFO は CentOS 6 デフォルトでは /var/log/messages にルーティングされています。
 
 ### Hatohol Clientの開始
 
@@ -131,7 +132,7 @@ Webブラウザを使ったアクセス
     # getenforce
     Permissive
 
-【ヒント】
+【ヒント】  
 /etc/selinux/configを編集することで、恒久的な無効化を行えます。
 
 iptablesについては、/etc/sysconfig/iptablesの編集により許可ポートを追加できます。
@@ -160,7 +161,7 @@ iptablesについては、/etc/sysconfig/iptablesの編集により許可ポー�
 hatohol-config.datで指定したユーザとパスワードでログインすることで、
 各種画面の閲覧が可能になります。
 
-【メモ】
+【メモ】  
 現在、上記ページは、Google ChromeおよびFirefoxを使ってチェックされています。
 Internet Explorerを使用する場合は、ご使用のバージョンによっては、
 表示レイアウトが崩れる場合があります。（IE11では正常に表示されることを確認しています）
