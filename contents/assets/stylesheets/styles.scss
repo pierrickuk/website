@@ -78,6 +78,15 @@ main {
 		}
 	}
 
+
+	ul#yearTabs {
+		li {
+			a {
+				border-bottom: none;
+			}
+		}
+	}
+
 	img {
 		max-width: 100%;
 		height: auto;
