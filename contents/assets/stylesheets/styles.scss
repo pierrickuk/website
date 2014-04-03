@@ -84,11 +84,11 @@ main {
 		margin-bottom: 12px;
 	}
 
-	position: relative; // For Github ribbon
+	// For Github ribbon
 	img.github {
-		position: absolute;
-		top: 0;
-		right: 0;
+		float: right;
+		margin-top: 0;
+		margin-right: -($grid-gutter-width / 2); // == .container's padding
 		border: 0;
 	}
 }
