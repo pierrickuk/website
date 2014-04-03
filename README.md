@@ -13,10 +13,8 @@ You need
 - Sass
 
 ``shell
-    sudo apt-get install python3 python-markdown unoconv ruby-dev
+    sudo apt-get install python3 python3-markdown unoconv ruby-dev
     sudo gem install sass
-	# python-markdown package is only available for Python 2 although the script is written in Python3 to prevent charcode errors. So make a symbolic link.
-	sudo ln -s ../../python2.7/dist-packages/markdown /usr/lib/python3/dist-packages/markdown
 ``
 
 Compilation
