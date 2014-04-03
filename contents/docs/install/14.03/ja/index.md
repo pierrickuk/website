@@ -23,18 +23,17 @@ CentOS 6.5 (x86_64)でのRPMを用いたインストール方法
 
     # yum localinstall https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.03/hatohol-client-14.03-4.el6.x86_64.rpm
 
-> ** 情報 **
-> 上記のコマンドによってインストールされる依存パッケージは以下のとおりです。
-> - glib2
-> - libsoup
-> - sqlite
-> - mysql
-> - mysql-server
-> - libuuid
-> - MySQL-python
-> - httpd
-> - mod_wsgi
+上記のコマンドによってインストールされる依存パッケージは以下のとおりです。
 
+- glib2
+- libsoup
+- sqlite
+- mysql
+- mysql-server
+- libuuid
+- MySQL-python
+- httpd
+- mod_wsgi
 
 セットアップ
 ------------
@@ -106,7 +105,7 @@ Hatohol serverが正常に開始した場合、/var/log/messagesに下記のよ�
     Oct  8 09:46:59 localhost hatohol[3038]: [INFO] <ArmZabbixAPI.cc:925> started: ArmZabbixAPI (server: testZbxSv1)
     Oct  8 09:47:01 localhost hatohol[3038]: [INFO] <ArmZabbixAPI.cc:925> started: ArmZabbixAPI (server: testZbxSv2)
 
-> ** TROUBLE SHOOT ** Hatohol Server は現状、全てのログを syslog へ USER.INFO で出力します。USER.INFO は CentOS 6 デフォルトでは /var/log/messages にルーティングされています。
+【TROUBLE SHOOT】Hatohol Server は現状、全てのログを syslog へ USER.INFO で出力します。USER.INFO は CentOS 6 デフォルトでは /var/log/messages にルーティングされています。
 
 ### Hatohol Clientの開始
 
@@ -118,8 +117,8 @@ Webブラウザを使ったアクセス
 ### SELinuxとiptablesの設定確認
 デフォルトでは、SELinuxやiptablesのようないくつかのセキュリティ機構によって他のコンピュータからのアクセスが妨げられます。
 必要に応じて、それらを解除しなければなりません。
-> ** 警告 **
-> 下記の設定を行うにあたり、セキュリティリスクについてよく理解してください。
+【警告】  
+下記の設定を行うにあたり、セキュリティリスクについてよく理解してください。
 
 現在のSELinuxの状態は次のコマンドで確認できます。
 
@@ -132,8 +131,8 @@ Webブラウザを使ったアクセス
     # getenforce
     Permissive
 
-> ** ヒント **
-> /etc/selinux/configを編集することで、恒久的な無効化を行えます。
+【ヒント】
+/etc/selinux/configを編集することで、恒久的な無効化を行えます。
 
 iptablesについては、/etc/sysconfig/iptablesの編集により許可ポートを追加できます。
 下記は、8000番ポートを許可する例です。
@@ -145,7 +144,8 @@ iptablesについては、/etc/sysconfig/iptablesの編集により許可ポー�
       -A INPUT -j REJECT --reject-with icmp-host-prohibited
       -A FORWARD -j REJECT --reject-with icmp-host-prohibited
 
-> ** メモ ** 先頭の'+'印は、新たに追加される行を意味します。
+【メモ】  
+先頭の'+'印は、新たに追加される行を意味します。
 
 次のコマンドはiptablesの設定をリロードします。
 
@@ -160,8 +160,8 @@ iptablesについては、/etc/sysconfig/iptablesの編集により許可ポー�
 hatohol-config.datで指定したユーザとパスワードでログインすることで、
 各種画面の閲覧が可能になります。
 
-> ** メモ **
-> 現在、上記ページは、Google ChromeおよびFirefoxを使ってチェックされています。
-> Internet Explorerを使用する場合は、ご使用のバージョンによっては、
-> 表示レイアウトが崩れる場合があります。（IE11では正常に表示されることを確認しています）
+【メモ】
+現在、上記ページは、Google ChromeおよびFirefoxを使ってチェックされています。
+Internet Explorerを使用する場合は、ご使用のバージョンによっては、
+表示レイアウトが崩れる場合があります。（IE11では正常に表示されることを確認しています）
 
