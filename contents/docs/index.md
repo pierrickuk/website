@@ -4,6 +4,15 @@
 - [インストール](/docs/install/14.03/ja/)
 - [アップグレード (13.12 → 14.03)](/docs/upgrade/14.03/ja/)
 
+旧バージョンのドキュメント
+
+- 0.1
+	- [インストール](/docs/install/0.1/ja/) ([English](/docs/install/0.1/en/))
+	- [アップグレード](/docs/upgrade/0.1/ja/) ([English](/docs/upgrade/0.1/en/))
+- 13.12
+	- [インストール](/docs/install/13.12/ja/) ([English](/docs/install/13.12/en/))
+	- [アップグレード](/docs/upgrade/13.12/ja/) ([English](/docs/upgrade/13.12/en/)) 
+
 外部のドキュメント等
 ------------------
 ### 連載等
