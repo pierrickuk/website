@@ -14,6 +14,11 @@
 		if (url.indexOf("/index.html") == url.length - "/index.html".length) {
 			window.location = url.replace("/index.html", "/");
 		}
+
+		// Assign first h1 content as page title
+		$(document).ready(function() {
+			document.title = $("h1:first").text();
+		});
 	</script>
 
 	<link rel="stylesheet" type="text/css" href="/assets/stylesheets/styles.css">
