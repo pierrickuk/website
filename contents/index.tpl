@@ -21,6 +21,10 @@
 			<h2>更新情報・お知らせ</h2>
 			<table class="table">
 				<tr>
+					<td>2014/04/03</td>
+					<td><a href="https://github.com/project-hatohol/hatohol/wiki/HAPI-(Hatohol-Arm-Plugin-Interface)">Hatohol Arm Plugin Interface</a>を計画中</td>
+				</tr>
+				<tr>
 					<td>2014/04/02</td>
 					<td>Webサイトを公開</td>
 				</tr>
