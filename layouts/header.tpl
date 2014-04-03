@@ -16,8 +16,8 @@
 		}
 
 		// Assign first h1 content as page title
-		$(document).ready(function() {
-			document.title = $("h1:first").text();
+		$(function() {
+			$("title").text($("h1:first").text());
 		});
 	</script>
 
