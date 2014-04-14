@@ -20,6 +20,8 @@ $kbd-bg: none;
 
 @import "bootstrap/bootstrap.scss";
 
+$main-padding: 3px;
+
 body {
 	background: linear-gradient(to top, rgb(247, 205, 137), rgb(247, 233, 210));
 	background-attachment: fixed;
@@ -66,6 +68,7 @@ h2 {
 
 main {
 	background:rgba(255, 255, 255, 0.6);
+	padding: $main-padding;
 
 	a {
 		&:link {
@@ -90,13 +93,12 @@ main {
 	img {
 		max-width: 100%;
 		height: auto;
-		margin-bottom: 12px;
 	}
 
 	// For Github ribbon
 	img.github {
 		float: right;
-		margin-top: 0;
+		margin-top: -$main-padding;
 		margin-right: -($grid-gutter-width / 2); // == .container's padding
 		border: 0;
 	}
@@ -155,6 +157,18 @@ a.download-top {
 	float: right;
 	border-radius: 8px;
 	line-height: 1.5em;
+}
+
+div.img {
+	background-color: #FFFFFF;
+	padding: 8px;
+
+	// Caption
+	p {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
 }
 
 .shellline { 
