@@ -21,7 +21,7 @@
 
 		// Assign first h1 content as page title
 		$(function() {
-			$("title").text($("h1:first").text());
+			$("title").text($("h1:first").text() + " | Hatohol");
 		});
 	</script>
 
