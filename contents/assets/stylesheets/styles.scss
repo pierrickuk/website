@@ -4,6 +4,7 @@ $body-bg: #ECECEC;
 $text-color: #86500D;
 $link-color: darken($text-color, 10%);
 $link-hover-color: lighten($text-color, 30%);
+$line-height-base: 1.4em;
 
 $navbar-default-link-color: #FFFFFF;
 $navbar-default-link-hover-color: $navbar-default-link-color;
@@ -25,7 +26,6 @@ $main-padding: 3px;
 
 body {
 	letter-spacing: 1px;
-	line-height: 1.4em;
 }
 
 nav {
