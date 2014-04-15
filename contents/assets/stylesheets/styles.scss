@@ -1,5 +1,6 @@
 @import "bootstrap/_variables.scss";
 
+$body-bg: #ECECEC;
 $text-color: #86500D;
 $link-color: darken($text-color, 10%);
 $link-hover-color: lighten($text-color, 30%);
@@ -23,8 +24,6 @@ $kbd-bg: none;
 $main-padding: 3px;
 
 body {
-	background: linear-gradient(to top, rgb(247, 205, 137), rgb(247, 233, 210));
-	background-attachment: fixed;
 	letter-spacing: 1px;
 	line-height: 1.4em;
 }
