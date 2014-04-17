@@ -15,10 +15,6 @@
 			window.location = url.replace("/index.html", "/");
 		}
 
-		if (url === "http://hatohol.sourceforge.jp/") {
-			$("head").html($("head").html() + "<meta name='description' content='Hatoholは、システム監視やジョブ管理、インシデント管理、ログ管理など、様々な運用管理ツールのハブとなるツールです。現段階ではシステム監視ツールの統合機能を持っており、複数のZabbixとNagiosで監視を行っている場合に、それらの蓄積する監視情報を集約して表示する機能を持っています。'>");
-		}
-
 		// Assign first h1 content as page title
 		$(function() {
 			$("title").text($("h1:first").text() + " | Hatohol");
