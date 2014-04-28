@@ -1,2 +1,7 @@
 ErrorDocument 404 /404/
 
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^hatohol.sourceforge.jp$
+	RewriteRule (.*)$ http://www.hatohol.org/$1 [R=301,L]
+</IfModule>
