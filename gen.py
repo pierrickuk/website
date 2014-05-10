@@ -74,19 +74,5 @@ def gen_html(walk_dir, outpath_root, header, footer):
 			else:
 				shutil.copy(os.path.join(dirpath, filename), os.path.join(outpath, filename))
 
-def copy_assets(walk_dir, outpath_root):
-	for (dirpath, dirnames, filenames) in os.walk(walk_dir):
-		dirpath = os.path.abspath(dirpath)
-		outpath = os.path.join(outpath_root, os.path.relpath(dirpath, walk_dir))
-
-
-
-		for filename in filenames:
-			if not os.path.isdir(outpath):
-					os.makedirs(outpath)
-
-			
-
-
 if __name__ == "__main__":
 	main()
