@@ -27,6 +27,16 @@ gen.py automatically generates output files including HTML, CSS, images, and so 
 
 Stop all LibreOffice instance to avoid conversion error by unoconv.
 
+How to deploy
+--------------
+Currently we use sourceforge.jp's hosting server. See [sourceforge.jp's official documents](http://sourceforge.jp/docs/FrontPage#h2-Web.E3.82.B5.E3.82.A4.E3.83.88.E3.81.AE.E3.83.9B.E3.82.B9.E3.83.86.E3.82.A3.E3.83.B3.E3.82.B0.E3.81.AB.E9.96.A2.E3.81.99.E3.82.8B.E6.96.87.E6.9B.B8) for details.
+
+1. Add your SSH key on [sourceforge.jp's config page](https://sourceforge.jp/account/editsshkeys.php).
+
+2. Login to sftp://shell.sourceforge.jp and open /home/groups/h/ha/hatohol/htdocs
+
+3. Put the generated HTMLs there.
+
 Source details
 ---------------
 In this repository, there are some kinds of files to be compiled.
