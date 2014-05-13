@@ -21,10 +21,10 @@ You need
 - unoconv
 - Sass
 
-``shell
+```shell
     sudo apt-get install python3 python3-markdown unoconv ruby-dev
     sudo gem install sass
-``
+```
 
 Source details
 ---------------
