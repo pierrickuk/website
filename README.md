@@ -1,6 +1,6 @@
 Hatohol Web Site
 =================
-This repository includes source code of [Hatohol web site](http://hatohol.sourceforge.jp)
+This repository includes source code of [Hatohol web site](http://www.hatohol.org)
 
 How to compile
 ---------------
