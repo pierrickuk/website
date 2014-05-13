@@ -34,7 +34,9 @@ def main():
 
 def gen_html(walk_dir, outpath_root, header, footer):
 	# Compile .scss files
-	subprocess.call("sass --style expanded --update %s:%s" % (walk_dir, outpath_root), shell=True)
+	sass_cmd = "sass --style expanded --update %s:%s" % (walk_dir, outpath_root)
+	print(sass_cmd)
+	subprocess.call(sass_cmd, shell=True)
 
 	for (dirpath, dirnames, filenames) in os.walk(walk_dir):
 		outpath = os.path.join(outpath_root, os.path.relpath(dirpath, walk_dir))
@@ -46,8 +48,14 @@ def gen_html(walk_dir, outpath_root, header, footer):
 			if filename.endswith(".scss"):
 				pass # Don't copy .scss files
 			elif filename.endswith(".odg"):
-				subprocess.call("unoconv -f png -o %s %s" % (os.path.join(outpath, filename.replace(".odg", ".png")), os.path.join(dirpath, filename)), shell=True)
+				outfile = os.path.join(outpath, filename.replace(".odg", ".png"))
+				srcfile = os.path.join(dirpath, filename)
+				result = subprocess.call("unoconv -f png -o %s %s" % (outfile, srcfile), shell=True)
 
+				if result is 0:
+					print("Copied %s to %s" % (os.path.abspath(srcfile), os.path.abspath(outfile)))
+				else: # result is 1
+					print("Failed to copy %s to %s" % (os.path.abspath(srcfile), os.path.abspath(outfile)))
 			elif filename.endswith(".md") or filename.endswith(".tpl"):
 				with open(os.path.join(dirpath, filename), "r") as content_file:
 					content = content_file.read()
@@ -65,12 +73,12 @@ def gen_html(walk_dir, outpath_root, header, footer):
 						if not os.path.isdir(os.path.dirname(outfile)):
 							os.makedirs(os.path.dirname(outfile))
 
-					print("%s to %s" % (os.path.join(dirpath, filename), outfile))
-
 					html = "%s%s%s" % (header, content, footer)
 
 					with open(os.path.join(outfile), "w+") as output_file:
 						output_file.write(html)
+
+					print("Copied %s to %s" % (os.path.abspath(content_file.name), os.path.abspath(outfile)))
 			else:
 				shutil.copy(os.path.join(dirpath, filename), os.path.join(outpath, filename))
 
