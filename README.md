@@ -2,20 +2,13 @@ Hatohol Web Site
 =================
 This repository includes source code of [Hatohol web site](http://www.hatohol.org)
 
-How to compile
----------------
-gen.py automatically generates output files including HTML, CSS, images, and so on.
-
-    ./gen.py --output /path/to/output/directory
-
-Stop all LibreOffice instance to avoid conversion error by unoconv.
-
-Dependency to execute gen.py
------------------------------
+Dependency
+-----------
 You have to compile files to generate HTML files.
 gen.py compile files automatically.
 
-You need
+It requires following libraries:
+
 - Python 3
 - python-markdown
 - unoconv
@@ -25,6 +18,14 @@ You need
     sudo apt-get install python3 python3-markdown unoconv ruby-dev
     sudo gem install sass
 ```
+
+How to compile
+---------------
+gen.py automatically generates output files including HTML, CSS, images, and so on.
+
+    ./gen.py --output /path/to/output/directory
+
+Stop all LibreOffice instance to avoid conversion error by unoconv.
 
 Source details
 ---------------
