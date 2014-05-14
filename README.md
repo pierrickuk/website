@@ -41,41 +41,41 @@ Source code
 ---------------
 
 ### Directory structure
-├── contents
-│   ├── assets
-│   │   ├── images
-│   │   │   ├── diagrams     - diagram images (mainly ODG format)
-│   │   │   │   └── …
-│   │   │   ├── hatohol.png  - logo
-│   │   │   └── screenshots
-│   │   │       └── …
-│   │   ├── javascripts
-│   │   │   └── …
-│   │   └── stylesheets
-│   │       ├── bootstrap    - SCSS files of Bootstrap
-│   │       │   └…
-│   │       └── styles.scss  - Style files
-│   ├── docs
-│   │   ├── index.md         - /docs/
-│   │   ├── install          - Document files. URL structure is: /docs/[hatohol version]/[language]/
-│   │   │   ├── 13.12
-│   │   │   │   ├── en
-│   │   │   │   │   └── index.md
-│   │   │   │   └── ja
-│   │   │   │       └── index.md
-│   │   │   └── …
-│   │   └── markdown-checker - Legacy scripts for markdown conversion; Maybe not required?
-│   ├── 404.md               - 404 page
-│   ├── about.tpl            - /about/
-│   ├── commercial.tpl       - /commercial/
-│   ├── contrib.tpl          - /contrib/
-│   ├── download.tpl         - /download/
-│   ├── index.tpl            - /
-│   ├── screenshots.tpl      - /screenshots/
-│   └── updates.tpl          - /updates/
-├── gen.py                   - HTML generation script
-├── layouts                  - template files: common header and footer for each HTML files
-└── README.md
+    ├── contents
+    │   ├── assets
+    │   │   ├── images
+    │   │   │   ├── diagrams     - diagram images (mainly ODG format)
+    │   │   │   │   └── …
+    │   │   │   ├── hatohol.png  - logo
+    │   │   │   └── screenshots
+    │   │   │       └── …
+    │   │   ├── javascripts
+    │   │   │   └── …
+    │   │   └── stylesheets
+    │   │       ├── bootstrap    - SCSS files of Bootstrap
+    │   │       │   └…
+    │   │       └── styles.scss  - Style files
+    │   ├── docs
+    │   │   ├── index.md         - /docs/
+    │   │   ├── install          - Document files. URL structure is: /docs/[hatohol version]/[language]/
+    │   │   │   ├── 13.12
+    │   │   │   │   ├── en
+    │   │   │   │   │   └── index.md
+    │   │   │   │   └── ja
+    │   │   │   │       └── index.md
+    │   │   │   └── …
+    │   │   └── markdown-checker - Legacy scripts for markdown conversion; Maybe not required?
+    │   ├── 404.md               - 404 page
+    │   ├── about.tpl            - /about/
+    │   ├── commercial.tpl       - /commercial/
+    │   ├── contrib.tpl          - /contrib/
+    │   ├── download.tpl         - /download/
+    │   ├── index.tpl            - /
+    │   ├── screenshots.tpl      - /screenshots/
+    │   └── updates.tpl          - /updates/
+    ├── gen.py                   - HTML generation script
+    ├── layouts                  - template files: common header and footer for each HTML files
+    └── README.md
 
 Each [filename].tpl and [filename].md files are converted to [filename]/index.html
 
