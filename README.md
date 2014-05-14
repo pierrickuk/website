@@ -37,8 +37,48 @@ Currently we use sourceforge.jp's hosting server. See [sourceforge.jp's official
 
 3. Put the generated HTMLs there.
 
-Source details
+Source code
 ---------------
+
+### Directory structure
+├── contents
+│   ├── assets
+│   │   ├── images
+│   │   │   ├── diagrams     - diagram images (mainly ODG format)
+│   │   │   │   └── …
+│   │   │   ├── hatohol.png  - logo
+│   │   │   └── screenshots
+│   │   │       └── …
+│   │   ├── javascripts
+│   │   │   └── …
+│   │   └── stylesheets
+│   │       ├── bootstrap    - SCSS files of Bootstrap
+│   │       │   └…
+│   │       └── styles.scss  - Style files
+│   ├── docs
+│   │   ├── index.md         - /docs/
+│   │   ├── install          - Document files. URL structure is: /docs/[hatohol version]/[language]/
+│   │   │   ├── 13.12
+│   │   │   │   ├── en
+│   │   │   │   │   └── index.md
+│   │   │   │   └── ja
+│   │   │   │       └── index.md
+│   │   │   └── …
+│   │   └── markdown-checker - Legacy scripts for markdown conversion; Maybe not required?
+│   ├── 404.md               - 404 page
+│   ├── about.tpl            - /about/
+│   ├── commercial.tpl       - /commercial/
+│   ├── contrib.tpl          - /contrib/
+│   ├── download.tpl         - /download/
+│   ├── index.tpl            - /
+│   ├── screenshots.tpl      - /screenshots/
+│   └── updates.tpl          - /updates/
+├── gen.py                   - HTML generation script
+├── layouts                  - template files: common header and footer for each HTML files
+└── README.md
+
+Each [filename].tpl and [filename].md files are converted to [filename]/index.html
+
 In this repository, there are some kinds of files to be compiled.
 - .tpl: HTML template files. .tpl files under content directory only have body content. They are merged with layout/header.tpl and layout/footer.tpl. Content of first h1 tag is assigned to page title.
 - .md: Markdown files. They are compiled by [python-markdown](https://pypi.python.org/pypi/Markdown), then merged with layout/header.tpl and layout/footer.tpl.
