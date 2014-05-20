@@ -39,6 +39,7 @@
 	<img alt="Hatoholと様々な運用管理ツールの連携" src="/assets/images/diagrams/integrated-monitoring.png">
 	<p>様々な運用管理ツールとの連携を目指しています</p>
 </div>
+
 <!--
 <h2>Project Hatoholとは</h2>
 <p>
