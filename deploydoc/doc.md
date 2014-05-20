@@ -55,7 +55,7 @@
 
 このリポジトリーでは、いくつかの種類のファイルはコンパイルされます。
 
-- .tpl: HTMLテンプレートファイル。 content ディレクトリー以下の .tpl ファイルは、bodyの中身しか持ちません。これらのファイルはコンパイル時に layout/header.tpl や layout/footer.tpl と統合されます。このファイルの最初に出てくるh1タグは、ページタイトルになります。
+- .tpl: HTMLテンプレートファイル。 中身はHTMLの一部なので、テキストエディターで編集できます。content ディレクトリー以下の .tpl ファイルは、bodyの中身しか持ちません。これらのファイルはコンパイル時に layout/header.tpl や layout/footer.tpl と統合されます。このファイルの最初に出てくるh1タグは、ページタイトルになります。
 - .md: Markdownファイル。[python-markdown](https://pypi.python.org/pypi/Markdown)によってコンパイルされた上、layout/header.tpl や layout/footer.tpl と統合されます。
 - .scss: Sass ファイル。sass コマンドによって、CSSに変換されます。
 - .odg: OpenDocument Graphics ファイル。unoconvによってPNGに変換されます。
