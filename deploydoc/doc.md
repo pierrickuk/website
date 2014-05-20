@@ -9,6 +9,57 @@
 3. コンパイルを行う
 4. デプロイを行う
 
+ファイル群の内容
+---------------
+
+編集作業の前に、各種ファイルの説明を行います。
+
+### ディレクトリー構成
+    ├── contents
+    │   ├── assets
+    │   │   ├── images
+    │   │   │   ├── diagrams     - 説明用の図 (主にODG形式)
+    │   │   │   │   └── …
+    │   │   │   ├── hatohol.png  - ロゴ
+    │   │   │   └── screenshots
+    │   │   │       └── …
+    │   │   ├── javascripts
+    │   │   │   └── …
+    │   │   └── stylesheets
+    │   │       ├── bootstrap    - BootstrapのSCSSファイル
+    │   │       │   └…
+    │   │       └── styles.scss  - スタイルシート
+    │   ├── docs
+    │   │   ├── index.md         - /docs/
+    │   │   ├── install          - ドキュメント類。URLの構造は /docs/[hatoholバージョン]/[言語コード]/ となっています。
+    │   │   │   ├── 13.12
+    │   │   │   │   ├── en
+    │   │   │   │   │   └── index.md
+    │   │   │   │   └── ja
+    │   │   │   │       └── index.md
+    │   │   │   └── …
+    │   │   └── markdown-checker - 古いMarkdown変換用スクリプト; 不要?
+    │   ├── 404.md               - 404ページ
+    │   ├── about.tpl            - /about/
+    │   ├── commercial.tpl       - /commercial/
+    │   ├── contrib.tpl          - /contrib/
+    │   ├── download.tpl         - /download/
+    │   ├── index.tpl            - /
+    │   ├── screenshots.tpl      - /screenshots/
+    │   └── updates.tpl          - /updates/
+    ├── gen.py                   - HTML生成スクリプト
+    ├── layouts                  - テンプレートファイル: HTMLファイル共通のヘッダー・フッター
+    └── README.md
+
+[filename].tpl と [filename].md は、[filename]/index.html に変換されます。
+
+このリポジトリーでは、いくつかの種類のファイルはコンパイルされます。
+
+- .tpl: HTMLテンプレートファイル。 content ディレクトリー以下の .tpl ファイルは、bodyの中身しか持ちません。これらのファイルはコンパイル時に layout/header.tpl や layout/footer.tpl と統合されます。このファイルの最初に出てくるh1タグは、ページタイトルになります。
+- .md: Markdownファイル。[python-markdown](https://pypi.python.org/pypi/Markdown)によってコンパイルされた上、layout/header.tpl や layout/footer.tpl と統合されます。
+- .scss: Sass ファイル。sass コマンドによって、CSSに変換されます。
+- .odg: OpenDocument Graphics ファイル。unoconvによってPNGに変換されます。
+
 1. ファイルを編集する
 -------------------
 編集の方法としては
@@ -88,52 +139,4 @@ FileZilla の場合、上から2段目の行に、"Host:"、"Username:"、"Passw
 ![FileZilla](filezilla.png)
 
 5. コンパイルされ生成されたHTMLファイルなどを、そこに置きます。
-
-ソースコード
----------------
-
-### ディレクトリー構成
-    ├── contents
-    │   ├── assets
-    │   │   ├── images
-    │   │   │   ├── diagrams     - 説明用の図 (主にODG形式)
-    │   │   │   │   └── …
-    │   │   │   ├── hatohol.png  - ロゴ
-    │   │   │   └── screenshots
-    │   │   │       └── …
-    │   │   ├── javascripts
-    │   │   │   └── …
-    │   │   └── stylesheets
-    │   │       ├── bootstrap    - BootstrapのSCSSファイル
-    │   │       │   └…
-    │   │       └── styles.scss  - スタイルシート
-    │   ├── docs
-    │   │   ├── index.md         - /docs/
-    │   │   ├── install          - ドキュメント類。URLの構造は /docs/[hatoholバージョン]/[言語コード]/ となっています。
-    │   │   │   ├── 13.12
-    │   │   │   │   ├── en
-    │   │   │   │   │   └── index.md
-    │   │   │   │   └── ja
-    │   │   │   │       └── index.md
-    │   │   │   └── …
-    │   │   └── markdown-checker - 古いMarkdown変換用スクリプト; 不要?
-    │   ├── 404.md               - 404ページ
-    │   ├── about.tpl            - /about/
-    │   ├── commercial.tpl       - /commercial/
-    │   ├── contrib.tpl          - /contrib/
-    │   ├── download.tpl         - /download/
-    │   ├── index.tpl            - /
-    │   ├── screenshots.tpl      - /screenshots/
-    │   └── updates.tpl          - /updates/
-    ├── gen.py                   - HTML生成スクリプト
-    ├── layouts                  - テンプレートファイル: HTMLファイル共通のヘッダー・フッター
-    └── README.md
-
-[filename].tpl と [filename].md は、[filename]/index.html に変換されます。
-
-このリポジトリーでは、いくつかの種類のファイルはコンパイルされます。
-- .tpl: HTMLテンプレートファイル。 content ディレクトリー以下の .tpl ファイルは、bodyの中身しか持ちません。これらのファイルはコンパイル時に layout/header.tpl や layout/footer.tpl と統合されます。このファイルの最初に出てくるh1タグは、ページタイトルになります。
-- .md: Markdownファイル。[python-markdown](https://pypi.python.org/pypi/Markdown)によってコンパイルされた上、layout/header.tpl や layout/footer.tpl と統合されます。
-- .scss: Sass ファイル。sass コマンドによって、CSSに変換されます。
-- .odg: OpenDocument Graphics ファイル。unoconvによってPNGに変換されます。
 
