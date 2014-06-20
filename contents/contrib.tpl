@@ -4,17 +4,17 @@
 
 <h1>プロジェクトへの協力</h1>
 <p>
-	Hatoholはバザールモデルによるオープンな開発体制を目指していますので、プロジェクトへの貢献を歓迎します。開発のインフラとしては、主にGithubを利用していますので、基本的にはGithubを用いて参加していただくことになります。<br>
-	<a href="https://github.com/project-hatohol/hatohol/">Hatohol on Github</a>
+	Hatoholはバザールモデルによるオープンな開発体制を目指していますので、プロジェクトへの貢献を歓迎します。開発のインフラとしては、主にGitHubを利用していますので、基本的にはGitHubを用いて参加していただくことになります。<br>
+	<a href="https://github.com/project-hatohol/hatohol/">Hatohol on GitHub</a>
 </p>
 <h2>バグの報告</h2>
 <p>
-	<a href="https://github.com/project-hatohol/hatohol/issues">GithubのIssuesページ</a>から報告して下さい。報告は英語で行えるようであれば英語で行っていただくことが望ましいですが、問題が報告されないことの方が問題であると考えておりますので、日本語でも構いません。<!--詳細は<a href="https://github.com/project-hatohol/hatohol/wiki/anywhere">TODO: どこどこ</a>を参照して下さい。-->
+	<a href="https://github.com/project-hatohol/hatohol/issues">GitHubのIssuesページ</a>から報告して下さい。報告は英語で行えるようであれば英語で行っていただくことが望ましいですが、問題が報告されないことの方が問題であると考えておりますので、日本語でも構いません。<!--詳細は<a href="https://github.com/project-hatohol/hatohol/wiki/anywhere">TODO: どこどこ</a>を参照して下さい。-->
 </p>
 
 <h2>パッチの投稿</h2>
 <p>
-	Hatoholのリポジトリーをフォークし、修正をコミットした上、Github上でPull Requestを送って下さい。
+	Hatoholのリポジトリーをフォークし、修正をコミットした上、GitHub上でPull Requestを送って下さい。
 	<a href="https://github.com/project-hatohol/">https://github.com/project-hatohol/</a> 以下にあるリポジトリーに送られる全てのパッチは、Project Hatoholに寄贈されるものとなります。<!--詳細は<a href="https://github.com/project-hatohol/hatohol/wiki/somewhere">TODO: どこどこ</a>を参照して下さい。-->
 </p>
 
