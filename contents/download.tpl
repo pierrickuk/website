@@ -7,7 +7,7 @@
 このyumリポジトリーは現在ベータ版です。予告なくURLやパッケージ、その他に対して、変更が行われる可能性があります。
 </p>
 
-<pre><kbd class="shell"><span class="shellline">wget --output-document /etc/yum.repos.d/hatohol.repo http://project-hatohol.github.io/repo/hatohol.repo</span>
+<pre><kbd class="shell"><span class="shellline">wget -P /etc/yum.repos.d/ http://project-hatohol.github.io/repo/hatohol.repo</span>
 <span class="shellline">yum install hatohol hatohol-client</span>
 </kbd></pre>
 
