@@ -13,7 +13,8 @@ Hatoholのアップデート方法
 ### Project Hatohol公式yumレポジトリの登録
 以下のコマンドを実行し、Project Hatohol公式が提供するyumレポジトリの登録をしてください。
 
-    # wget -P /etc/yum.repos.d/ https://github.com/project-hatohol/project-hatohol.github.io/raw/master/repo/hatohol.repo
+
+    # wget -P /etc/yum.repos.d/ http://project-hatohol.github.io/repo/hatohol.repo
 
 ### アップデート方法
 次のコマンドでアップデートしてください。
