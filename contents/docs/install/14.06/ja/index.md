@@ -67,7 +67,7 @@ Hatohol cache DBのためのディレクトリを用意します。
 
     # cp /usr/share/hatohol/hatohol-config.dat.example ~/hatohol-config.dat
 
-Zabbix serverとNagiosサーバの情報やHatoholにログインするときに必要な情報を
+Zabbix serverとNagiosサーバの情報、インシデント管理システムの情報やHatoholにログインするときに必要な情報を
 コピーした設定ファイルに追加してください。
 いつくかのルールとサンプルがそのファイルの中にあります。
 
