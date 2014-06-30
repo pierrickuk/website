@@ -21,14 +21,18 @@
 <pre><kbd class="shell"><span class="shellline">yum localinstall https://github.com/project-hatohol/json-glib-for-distribution/raw/master/RPMS/x86_64/json-glib-0.12.6-1PH.x86_64.rpm</span>
 <span class="shellline">yum localinstall https://github.com/project-hatohol/Django-for-distribution/raw/master/dist/Django-1.5.3-1.noarch.rpm</span>
 
-<span class="shellline">yum localinstall https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.03/hatohol-14.03-4.el6.x86_64.rpm</span>
-<span class="shellline">yum localinstall https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.03/hatohol-client-14.03-4.el6.x86_64.rpm</span></kbd></pre>
+<span class="shelline">yum localinstall https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-lib-common-14.06-4.el6.x86_64.rpm</span>
+<span class="shelline">yum localinstall https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-lib-arm-plugin-14.06-4.el6.x86_64.rpm</span>
+<span class="shelline">yum localinstall https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-14.06-4.el6.x86_64.rpm</span>
+<span class="shelline">yum localinstall https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-client-14.06-4.el6.x86_64.rpm</span></pre>
 
 <h2>RPMをダウンロード</h2>
 <p>Hatohol及び、Project Hatoholが提供する依存パッケージのRPMは以下からダウンロードすることができます。</p>
 <ul>
-	<li><a href="https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.03/hatohol-14.03-4.el6.x86_64.rpm">Hatohol Server (hatohol)</a></li>
-	<li><a href="https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.03/hatohol-client-14.03-4.el6.x86_64.rpm">Hatohol Client (hatohol-client)</a></li>
+	<li><a href="https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-lib-common-14.06-4.el6.x86_64.rpm">Common library package (server)</a>
+	<li><a href="https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-lib-arm-plugin-14.06-4.el6.x86_64.rpm">Arm Plugin package (server)</a>
+	<li><a href="https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-client-14.06-4.el6.x86_64.rpm">Hatohol Server (hatohol)</a></li>
+	<li><a href="https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-client-14.06-4.el6.x86_64.rpm">Hatohol Client (hatohol-client)</a></li>
 	<li><a href="https://github.com/project-hatohol/json-glib-for-distribution/raw/master/RPMS/x86_64/json-glib-0.12.6-1PH.x86_64.rpm">json-glib</a></li>
 	<li><a href="https://github.com/project-hatohol/Django-for-distribution/raw/master/dist/Django-1.5.3-1.noarch.rpm">Django</a></li>
 </ul>
