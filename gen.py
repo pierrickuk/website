@@ -50,7 +50,7 @@ def gen_html(walk_dir, outpath_root, header, footer):
 			elif filename.endswith(".odg"):
 				outfile = os.path.join(outpath, filename.replace(".odg", ".png"))
 				srcfile = os.path.join(dirpath, filename)
-				result = subprocess.call("unoconv -f png -o %s %s" % (outfile, srcfile), shell=True)
+				result = subprocess.call("unoconv -f png -o %s %s" % (outpath, srcfile), shell=True)
 
 				if result is 0:
 					print("Copied %s to %s" % (os.path.abspath(srcfile), os.path.abspath(outfile)))
