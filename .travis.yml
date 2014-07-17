@@ -1,0 +1,21 @@
+language: python
+python:
+- "3.2_with_system_site_packages"
+install:
+- sudo apt-get -qq update
+- sudo apt-get -qq install python-software-properties 
+- sudo apt-add-repository -y ppa:libreoffice/libreoffice-4-2
+- sudo apt-get -qq update
+- sudo apt-get -qq install python3 python3-markdown unoconv python-uno ruby-dev rubygems libreoffice-core libreoffice-impress libreoffice-l10n-ja fonts-vlgothic
+- gem install sass bigdecimal bundler gem-wrappers io-console json minitest rake rdoc rvm
+script:
+- ./gen.py --output ./html
+after_success:
+- openssl aes-256-cbc -k "$SERVER_KEY" -in .travis/deploy_key.enc -d -a -out deploy.key
+- cp deploy.key ~/.ssh/
+- chmod 600 ~/.ssh/deploy.key
+- ssh -i ~/.ssh/deploy.key -o StrictHostKeyChecking=no travis@dev.blue.skydetector.net rm ~/hatohol_html -rf
+- scp -i ~/.ssh/deploy.key -o StrictHostKeyChecking=no -r ./html travis@dev.blue.skydetector.net:hatohol_html
+env:
+  global:
+    secure: FAvnJLg4D1lengckb2jsTFqAgFA1pSQbBKxc+oyTs48fuPZ4Q+B7PgvvWLbUCox93/OuG6aCAg903tyaaxkQskZfI1mhRnioMX32JbOvD5awtYo69khXPqt5Owj6v3QD3x7w/5fQZuUiNVNihwWNvaZaAOvp7sOLEXK2bjazohY=
