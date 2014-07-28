@@ -1,38 +1,59 @@
-ドキュメント
+Document
+
 ==========
 
-- [インストール](/docs/install/14.06/ja/)
-- [アップグレード (14.03 → 14.06)](/docs/upgrade/14.06/ja/)
+](/ docs installed. Install a few 14.06 ja
 
-旧バージョンのドキュメント
+On the upgrade of 14.03's 14.06)](/ docs to upgrade a few 14.06 ja
 
-- 0.1
-	- [インストール](/docs/install/0.1/ja/) ([English](/docs/install/0.1/en/))
-	- [アップグレード](/docs/upgrade/0.1/ja/) ([English](/docs/upgrade/0.1/en/))
-- 13.12
-	- [インストール](/docs/install/13.12/ja/) ([English](/docs/install/13.12/en/))
-	- [アップグレード](/docs/upgrade/13.12/ja/) ([English](/docs/upgrade/13.12/en/)) 
-- 14.03
-	- [インストール](/docs/install/14.03/ja/)
-	- [アップグレード](/docs/upgrade/14.03/ja/)
+The old version of the document
 
-外部のドキュメント等
-------------------
-### 連載等
-- Hatoholで実現する分散監視 - @IT
-	- [できぬなら作ってしまえ? OSS監視ツール「Hatohol」ができるまで](http://www.atmarkit.co.jp/ait/articles/1402/13/news008.html)
-	- [初心者にも分かる、Hatoholのインストールと初期設定](http://www.atmarkit.co.jp/ait/articles/1403/13/news007.html)
+0.1.
 
-### 発表資料等
-- [Hatohol (はとほる) で実現するZabbix/Nagiosの監視統合、大規模監視](http://www.slideshare.net/kz0817/osc-tokyo-20140228) - [オープンソースカンファレンス 2014 Tokyo/Spring](http://www.ospn.jp/osc2014-spring/) 2014/02/28
-- [Hatoholで社内もクラウドも一元監視](http://www.ospn.jp/osc2013-kyoto/pdf/osc2013kyoto_hatohol_lt.pdf) - [オープンソースカンファレンス 2013 Kansai @ Kyoto](http://www.ospn.jp/osc2013-kyoto/) 2013/08/02
-- [Hatohol (はとほる) で実現するZabbix/Nagiosサーバの統合!!](http://www.ospn.jp/osc2013-kyoto/pdf/osc2013kyoto_hatohol.pdf) - [オープンソースカンファレンス 2013 Kansai @ Kyoto](http://www.ospn.jp/osc2013-kyoto/) 2014/08/02
+](/ docs installed. Install something similar a few 0.1 Ja English](/ docs / install 0.1 /)) en
 
-- Hatoholで社内もクラウドも一元監視 - [hbstudy#49](http://heartbeats.jp/hbstudy/2013/08/hbstudy49.html) 2013/08/30
-	- [概要・機能紹介](http://www.slideshare.net/koedoyoshida/hatohol-introduction20130830hbstudy-25744631)
-	- [Technical Brief](http://www.slideshare.net/koedoyoshida/hatohol-technicalbrief20130830hbstudy)
+On the](/'s upgrade / upgrade / docs / JA 0.1 involved something similar to English](/ docs 0.1 en /)) upgrade
 
-開発者向けドキュメント
--------------------
-- [Hatohol Server APIドキュメント](/docs/api/)
+13.12.
 
+](/ docs installed. Install something similar a few 13.12 Ja English](/ docs / install 13.12 /)) en
+
+On the](/'s upgrade / upgrade / docs / JA 13.12 involved something similar to English](/ docs 13.12 en /)) upgrade
+
+14.03.
+
+](/ docs installed. Install a few 14.03 ja
+
+On the](/'s upgrade / upgrade / docs / JA 14.03 domain
+
+External documentation, etc.
+
+-------------
+
+### series, etc.
+
+On the Hatohol realized in distributed monitoring and IT.
+
+I can not make it? Cut (http: / / to be OSS monitoring tool "Hatohol" atmarkit AIT Articles Co JP and ep 1 / 13 / news. HTML)
+
+I understand for beginners, installation and initial setting of Hatohol cut (http: / / atmarkit Articles Co JP Ait and 1403 13 news 007. HTML)
+
+### presentation materials, etc.
+
+On the Hatohol's of Zabbix attentively and Nagios in realizing large-scale integrated monitoring, monitoring is set at SlideShare. Net. KZ 0817 and OSC Tokyo 20140228 on open source conference Tokyo 2014 and Spring set at http: / / ospn spring JP domain 2014 OSC 2014 / 02 28
+
+In both internal and Hatohol cloud unified monitoring cut (see http: / / ospn JP OSC 2013 Kyoto OSC. Sub. -- 2013 hatohol PDF PDF. Lt's open source conference Kansai 2013. Kyoto cut (http: / / ospn JP OSC 2013 02 / 08 / 2013 involved in Kyoto
+
+On the Hatohol's of Zabbix attentively and Nagios server integration!!](at http: / / ospn JP OSC 2013 Kyoto Kyoto hatohol OSC 2013 PDF PDF for open source conference Kansai 2013. Kyoto cut (http: / / ospn OSC 2013 Kyoto JP domain 2014 08 / 02
+
+In Hatohol and company's hbstudy cloud unified monitoring and # 49 is set at hbstudy heartbeats. Co.jp / 08 / 2013 hbstudy 49. HTML) 30 / 08 / 2013
+
+Introduction and summary function being (http: / / koedoyoshida SlideShare. Net and hatohol -- Introduction on 20130830 hbstudy 25744631.
+
+On the Technical Brief's cut (http: / / SlideShare. Net. Koedoyoshida and hatohol technicalbrief 20130830 hbstudy.
+
+Developer documentation
+
+Figure
+
+On the Hatohol's Server API API docs document](/ domain
