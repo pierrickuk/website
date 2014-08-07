@@ -21,7 +21,7 @@ It requires the following libraries:
 
 How to compile
 ---------------
-gen.py automatically generates output the files including HTML, CSS, images, and so on.
+The “gen.py” script automatically generates the output for the files including HTML, CSS, images, and so on.
 
     ./gen.py --output /path/to/output/directory
 

@@ -1,43 +1,41 @@
-<h1>Hatoholの概要</h1>
+<h1>Hatohol Overview</h1>
 
-<h2>Hatoholとは</h2>
+<h2>About Hatohol</h2>
 <p>
-	Hatoholは、システム監視やジョブ管理やインシデント管理、ログ管理など、様々な運用管理ツールのハブとなるツールです。<br>
-	現段階ではシステム監視ツールの統合機能を持っており、複数のZabbixとNagiosで監視を行っている場合に、それらの蓄積する監視情報を集約して表示する機能を持っています。<br>
-	今後その他の種類のツールに対応することで、あらゆる機能を備えた統合運用管理ツールと同等の機能を実現していく予定です。 
+	As the only hub to all your management tools, Hatohol allows you to monitor your systems, manage all jobs and incidents along with all your logs.<br>
+	If you are already running Zabbix and Nagios in your system, Hatohol will aggregate all your monitoring information on one page.<br>
+	It also covers information coming from other monitoring tools.
 </p>
 
-<h2>スケールアウト可能な運用管理環境を実現</h2>
+<h2>Operation management optimization as your environment scales out.</h2>
 <p>
-	監視対象機器の台数により、監視サーバーに必要なスペックやネットワーク帯域は異なります。従って、当初想定していた台数よりも監視対象機器が多くなってしまった場合、監視サーバーを買い換え、環境を再構築し、或いは別のネットワーク回線を用意しなければならなくなる場合があります。<br>
-	しかし、それは経済的にも労力的にも非効率的です。そこで、元々ある監視サーバーに加えて、もう1台監視サーバーを追加する、という方法を取る場合があります。<br>
-	この場合、2台の監視サーバーの情報を閲覧するためのインターフェースは、それぞれの監視サーバーごとに独立していますので、1つ1つ見ていかなければなりません。監視サーバーが2~3台程度であっても少々混乱しますし、10台、20台、或いはそれ以上の監視サーバーがある場合は、もはや非現実的です。<br>
-	Hatoholはそれぞれの監視サーバーから情報を集め、1つの画面上で表示します。これにより、スマートな監視のスケールアウトが実現されます。
+	The specifications of the required server to monitor the network bandwidth and all the servers depends on how many units there are in your system. Usually, as you add new units, in the best cases you must reconfigure your monitoring server, or you might have to replace it altogether, both expensive solutions in term of labor. Furthermore, when segments of your network are physically separated, be it by a wall or by 1000 km, it is quite often the case that the monitoring servers are not in the same location, making expanding your environment even more of a logistic nightmare.<br>
+	With Hatohol, operation management becomes easy. All the information you need is accessible in one screen, making monitoring your resources as your environment scales out easy. You are informed of any problem faster than before, and you can react quickly.
 </p>
 <div class="img">
 	<img alt="Hatoholによる分散監視の概要図" src="/assets/images/diagrams/distributed-monitoring.png">
-	<p>Hatoholによる分散監視の概要</p>
+	<p>Hatohol’s distibuted monitoring</p>
 </div>
 
-<h2>軽快な動作</h2>
+<h2>Improved Operations</h2>
 <p>
-	多くの監視サーバーの情報をまとめて表示するHatoholですが、そのサーバースペックはそれほど高いものである必要はありません。Hatoholが監視サーバーから取得してくる情報は、表示に必要な最低限だけです。障害通知メールなどの送信も、監視サーバーが行いますので、多少監視対象サーバーが増えたところで、オーバーフローすることはありません。
+	While Hatohol can display all the information necessary to the management of your environment, its hardware and resource requirements are low by today’s standards. For pure monitoring purposes, a low-specs machine is all you need. Of course, the necessary resources needed increase with the more services and functions you configure, but all in all, you can just re-purpose an old server or desktop lying around.
 </p>
 
-<h2>分散</h2>
+<h2>Distribution</h2>
 <p>
-	例えば1台のZabbix Serverで全てのホストを監視している場合、ネットワーク接続がオフラインになってしまうと、その間に取得した監視データは、Zabbix Serverに送信することができず、消失してしまいます。監視対象機器側で監視データを保存しておくことはできないためです。<br>
-	一方Hatoholを用いた場合、Hatoholと監視サーバーの間のネットワーク接続が切れても、データは失われません。監視データはZabbix Serverなどに保存されるためです。<br>
-	ですので、例えば東京にZabbix Serverを置き、大阪と北海道にある監視対象機器を監視するよりも、東京にHatoholを置き、大阪と北海道にそれぞれZabbix Serverを置いて、それぞれのLAN内の監視対象を監視させる方が、監視データが失われる可能性を低く抑えることができます。
+	Take for example the case of a single Zabbix monitoring server. If the network connection is down, all the data sent to the Zabbix server will be lost.<br>
+	With Hatohol, it would not be as all the monitoring data is stored, even if the connection between Hatohol and the Zabbix monitoring server is down.<br>
+	Similarly, Hatohol could monitor Zabbix servers and their LAN in Tokyo, Osaka and Hokkaido
 </p>
 
-<h2>様々なツールに対応</h2>
+<h2>Existing tools compatibility</h2>
 <p>
-	現在のところはZabbixとNagiosにのみ対応していますが、今後は他のツールとの連携も予定されています。現在検討されているのは、ジョブ管理ツールとしてHinemos、インシデント管理ツールとしてRedmine、ログ管理ツールとしてfluentdなどです。これらのツールと連携することにより、OSSだけで運用管理を全て賄えるようにすることを目指しています。
+	Hatohol currently supports Nagios and Zabbix. It will support other tools in the near future as our developers are busy implementing them: fluentd and Redmine for job management, Hinemos for log management and also some incident management tools. Ultimately, Hatohol seeks to be the only OSS operation management solution.
 </p>
 <div class="img">
 	<img alt="Hatoholと様々な運用管理ツールの連携" src="/assets/images/diagrams/integrated-monitoring.png">
-	<p>様々な運用管理ツールとの連携を目指しています</p>
+	<p>Cooperation with various operation management tool</p>
 </div>
 
 <!--
