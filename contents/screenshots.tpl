@@ -1,38 +1,38 @@
-<h1>スクリーンショット</h1>
+<h1>Screenshot</h1>
 <div>
-	<h2>最新データ画面</h2>
+	<h2>Latest data</h2>
 	<div class="img">
-		<img alt="Hatohol 最新データ画面 スクリーンショット" src="/assets/images/screenshots/latestdata.png">
-		<p>全てのZabbix/Nagiosサーバーのデータを1箇所で確認可能です</p>
+		<img alt="Hatohol Latest data Screenshot" src="/assets/images/screenshots/latestdata.png">
+		<p>Check your Zabbix/Server latest information in one place.</p>
 	</div>
 
-	<h2>概要:トリガー画面</h2>
+	<h2>Summary</h2>
 	<div class="img">
-		<img alt="Hatohol 概要:トリガー画面 スクリーンショット" src="/assets/images/screenshots/overview_triggers.png">
-		<p>エラーの発生箇所は赤く示されるので、どこに問題があるのかひと目で把握できます</p>
+		<img alt="Hatohol Summary Screenshot" src="/assets/images/screenshots/overview_triggers.png">
+		<p>See immediately what and where the problem is, in red.</p>
 	</div>
 
-	<h2>ユーザー管理画面</h2>
+	<h2>User management</h2>
 	<div class="img">
-		<img alt="Hatohol ユーザー管理画面 スクリーンショット" src="/assets/images/screenshots/users.png">
-		<p>ユーザーごとの権限管理も</p>
+		<img alt="Hatohol User management Screenshot" src="/assets/images/screenshots/users.png">
+		<p>User permission management</p>
 	</div>
 
-	<h2>ダッシュボード</h2>
+	<h2>Dashboard</h2>
 	<div class="img">
-		<img alt="Hatohol ダッシュボード画面 スクリーンショット" src="/assets/images/screenshots/dashboard.png">
-		<p>概要が表示されます</p>
+		<img alt="Hatohol Dashboard Screenshot" src="/assets/images/screenshots/dashboard.png">
+		<p>Overview</p>
 	</div>
 
-	<h2>イベント</h2>
+	<h2>Events</h2>
 	<div class="img">
-		<img alt="Hatohol イベント画面 スクリーンショット" src="/assets/images/screenshots/events.png">
-		<p>発生したイベントを一覧</p>
+		<img alt="Hatohol Events Screenshot" src="/assets/images/screenshots/events.png">
+		<p>List of events</p>
 	</div>
 
-	<h2>サーバー</h2>
+	<h2>Servers</h2>
 	<div class="img">
-		<img alt="Hatohol サーバー画面 スクリーンショット" src="/assets/images/screenshots/servers.png">
-		<p>監視サーバーの追加もGUIで可能</p>
+		<img alt="Hatohol Servers画面 Screenshot" src="/assets/images/screenshots/servers.png">
+		<p>Use the GUI to setup additional servers to monitor</p>
 	</div>
 </div>
