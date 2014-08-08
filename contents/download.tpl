@@ -1,21 +1,21 @@
-<h1>ダウンロード</h1>
+<h1>Downoad</h1>
 
-<h2>RPMをyumリポジトリーからインストール</h2>
+<h2>Yum installation from Hatohol RRM repository</h2>
 
 <p>
-	Hatoholのyumリポジトリーからインストールを行います。原則としてCentOS (またはRedHat及びそのクローン) のバージョン6専用です。<br>
-このyumリポジトリーは現在ベータ版です。予告なくURLやパッケージ、その他に対して、変更が行われる可能性があります。
+	Please find below how to install Hatohol This is for yum on a RedHat 6 compatible OS (CentOS, Fedora and other clones).<br>
+Hatohol Yum repository is currently in beta version. Packages, URL and other changes might happen without any notice.
 </p>
 
 <pre><kbd class="shell"><span class="shellline">wget -P /etc/yum.repos.d/ http://project-hatohol.github.io/repo/hatohol.repo</span>
 <span class="shellline">yum install hatohol hatohol-client</span>
 </kbd></pre>
 
-<h2>RPMを一つ一つインストール</h2>
+<h2>RPM installation </h2>
 
 <p>
-	yumリポジトリーを用いずに、yum localinstallを用いてダウンロード・インストールを行うことも可能です。<br>
-	yumリポジトリーを用いる方法と同様、原則としてCentOS (またはRedHat及びそのクローン) のバージョン6専用です。
+	It is possible to install the RPMs without using the yum repositories by using 'yum localinstall'.<br>
+	This if for yum running on a RedHat 6 compatible OS (CentOS, Fedora and other clones).
 </p>
 
 <pre><kbd class="shell"><span class="shellline">yum localinstall https://github.com/project-hatohol/json-glib-for-distribution/raw/master/RPMS/x86_64/json-glib-0.12.6-1PH.x86_64.rpm</span>
@@ -26,8 +26,8 @@
 <span class="shelline">yum localinstall https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-14.06-4.el6.x86_64.rpm</span>
 <span class="shelline">yum localinstall https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-client-14.06-4.el6.x86_64.rpm</span></pre>
 
-<h2>RPMをダウンロード</h2>
-<p>Hatohol及び、Project Hatoholが提供する依存パッケージのRPMは以下からダウンロードすることができます。</p>
+<h2>RPM download links</h2>
+<p>Here is a list of links from where to get the necessary RPMs and their dependency for Hatohol and the Hatohol Project:</p>
 <ul>
 	<li><a href="https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-lib-common-14.06-4.el6.x86_64.rpm">Common library package (server)</a>
 	<li><a href="https://github.com/project-hatohol/hatohol-packages/raw/master/RPMS/14.06/hatohol-lib-arm-plugin-14.06-4.el6.x86_64.rpm">Arm Plugin package (server)</a>
@@ -37,10 +37,10 @@
 	<li><a href="https://github.com/project-hatohol/Django-for-distribution/raw/master/dist/Django-1.5.3-1.noarch.rpm">Django</a></li>
 </ul>
 
-<h2>ソースコードをダウンロード</h2>
-		<p>ソースコードはGitHubにありますので、git cloneが可能です。Ubuntuや、他のLinuxディストリビューションで試したい場合は、ソースコードからコンパイルして下さい。</p>
+<h2>Get the source code</h2>
+		<p>The source code is available on GitHub, so you can get it with git clone. If you want to try hatohol on Ubuntu and other distributions, please compile Hatohol from the source code.</p>
 		<pre><kbd class="shell">git clone https://github.com/project-hatohol/hatohol.git</kbd></pre>
-		<p>また、以下のリンクから、最新のmasterをZip形式でダウンロードすることも可能です。</p>
+		<p>You can also download the master in the zip format from the link below:</p>
 
-		<p><a href="https://github.com/project-hatohol/hatohol/archive/master.zip" class="download download-small">ソースコードをダウンロード</a></p>
+		<p><a href="https://github.com/project-hatohol/hatohol/archive/master.zip" class="download download-small">Download the source code</a></p>
 
